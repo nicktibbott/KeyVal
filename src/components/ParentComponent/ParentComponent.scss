@@ -1,0 +1,72 @@
+@import 'src/assets/styles/base/baseExport';
+
+.parentComponent {
+  width: 95vw;
+  color: $white;
+  font-size: 16px;
+  background: #666666;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submit{
+  width: 97%;
+  padding: 10px;
+  background: $blue;
+  color: white;
+  margin: 10px auto;
+  height: 35px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 2px solid #424242;
+}
+  .table {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+    width: 95vw;
+    background: #666666;
+  }
+  input {
+    font-size: 16px;
+    top:0;
+    left:0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  tr {
+    height: 10px;
+    padding: 10px;
+
+  }
+  td {
+    width: 95vw;
+    border-radius: 3px;
+    padding: 10px;
+    height: 10px;
+    background: white;
+    color: #666666;
+  }
+  .parentText {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: $blue;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+
+  .header {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #666666;
+  }
